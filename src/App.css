@@ -1,0 +1,11 @@
+.App {
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+}
+
+@media screen and (max-width: 980px) {
+  .App {
+    height: auto;
+  }
+}
